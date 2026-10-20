@@ -1,8 +1,5 @@
 # CADRE — Un contrôle parental adapté aux usages des jeunes
 
-**[Les fonctionnalités que nous souhaitons construire — liste centrale](docs/FEATURE_REGISTER.md)** : demandes détaillées, distinctes des fonctions disponibles et du premier pilote.
-
-
 **Nous recherchons des bénévoles pour construire et livrer une application Android fonctionnelle, gratuite pour les parents, qui associe protection, accompagnement éducatif et autonomie progressive.**
 
 Les besoins à traiter concernent autant ce que les jeunes font avec leur téléphone que le temps qu’ils y passent : communiquer, partager des images ou des vocaux, jouer, apprendre, gérer les sollicitations et respecter les autres. CADRE veut permettre aux familles de définir leur propre cadre et de le faire évoluer.
