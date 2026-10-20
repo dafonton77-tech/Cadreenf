@@ -1,0 +1,36 @@
+name: Test rule engine
+on:
+  pull_request:
+    paths:
+      - 'rule-engine/**'
+      - '.github/workflows/rule-engine.yml'
+  push:
+    branches: [main, codex/rules-engine-20261020]
+    paths:
+      - 'rule-engine/**'
+      - '.github/workflows/rule-engine.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+      - name: Compile and test standalone JVM module
+        run: gradle --no-daemon -p rule-engine test build
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cadre-rule-engine-results
+          path: |
+            rule-engine/build/reports/tests/test/
+            rule-engine/build/test-results/test/
+            rule-engine/build/libs/
+          if-no-files-found: warn
