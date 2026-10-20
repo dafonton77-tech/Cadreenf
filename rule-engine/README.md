@@ -40,3 +40,7 @@ Persistance et migration, réseau, authentification parentale, validation de l�
 Pas d’analyse de contenus privés, pas de collection d’informations réelles d’enfants.
 
 Les choix de priorité sont documentés pour revue ; aucune fonction produit ni aucune restriction universelle n’est annoncée par ce module.
+
+## Démonstration exécutable
+
+`gradle -p rule-engine run` affiche une autorisation temporaire puis le retour à l’interdiction à l’expiration des trente minutes. Les deux résultats restent UNVERIFIED : aucun téléphone n’est commandé, même quand l’effet souhaité est ALLOW.
