@@ -43,3 +43,14 @@ Projet porté dans le cadre de la démarche **Éducation Numérique France (ENF)
 ## Mission de livraison : une application fonctionnelle
 
 Nous recherchons des bénévoles pour **développer, intégrer et livrer une première version Android utilisable**, au-delà des études et de la documentation. La [mission globale #12](https://github.com/dafonton77-tech/Cadreenf/issues/12) définit les lots de réalisation et les critères de réception : appairage, règles synchronisées, restrictions réellement vérifiées, demandes d’extension, rapports minimaux et APK testées. Les onze premières missions contribuent à cet objectif ; leur clôture seule ne constitue pas une livraison. Le périmètre dépend des capacités Android validées et doit distinguer installation ordinaire et privilèges particuliers.
+
+## Périmètre prioritaire validé — pilote Android gratuit
+La première livraison vise une application Android fonctionnelle, remise gratuitement à des parents volontaires lors des conférences Éducation Numérique France pour une phase de test encadrée. Le prototype actuel ne doit pas être distribué comme une protection opérationnelle.
+
+Les parents testeurs participent à l’amélioration : besoins réels, fonctions utiles ou manquantes, difficultés d’installation et d’utilisation, dysfonctionnements et propositions. Prévoir un moyen simple de retour accessible depuis l’application, sans forum intégré : type de retour, description, version de l’application et modèle/version Android, avec informations techniques transmises volontairement. Ne demander aucun contenu privé ni information identifiante sur les enfants ; anonymiser les éléments avant publication sur GitHub.
+
+Organiser le cycle : version pilote identifiée → essais volontaires → retours → tri des bugs et besoins → corrections priorisées → nouvelle version → nouvelle vérification. Fournir une notice sur les fonctions validées, limites, retrait de l’application et procédure de signalement ; vérifier le parcours de retour avant le pilote.
+
+Le périmètre exact des fonctions du premier pilote sera figé selon faisabilité et tests. Les lots ci-dessous sont une cible de développement, pas l’exigence de tout livrer avant un premier pilote limité. Aucun contrôle annoncé comme actif sans preuve. iOS, compatibilité universelle et forum communautaire sont hors du périmètre de cette première livraison.
+
+Suivi : [mission #12](https://github.com/dafonton77-tech/Cadreenf/issues/12).
