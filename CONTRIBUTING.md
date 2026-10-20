@@ -2,6 +2,10 @@
 
 Merci de votre intérêt pour ce projet éducatif. **Les contributions sont bénévoles.**
 
+## Point d’entrée
+
+Commencez par [START_HERE.md](docs/START_HERE.md) pour les documents, versions configurées et livrables attendus. Les [scénarios du pilote](docs/PILOT_SCENARIOS.md) illustrent les parcours à développer et vérifier ; ils ne sont pas des tests déjà réussis.
+
 ## Avant de commencer
 
 1. Lisez [le cahier des charges](docs/CAHIER_DES_CHARGES.md), [la faisabilité Android](docs/FAISABILITE_ANDROID.md) et [la feuille de route](docs/ROADMAP.md).
