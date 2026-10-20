@@ -1,73 +1,39 @@
-# Feuille de route — contrôle parental éducatif et accompagnant
+# Feuille de route CADRE
 
-## Notre ambition et le sens de l’engagement
-CADRE vise un contrôle parental Android d’un nouveau genre : éducatif, modulaire et accompagnant. Il associe protections réglables, modes d’activité, prise de conscience des usages, dialogue familial et autonomie progressive. C’est une ambition de conception, pas une affirmation d’innovation unique ni de fonctions déjà disponibles.
+## Finalité
+Livrer un contrôle parental Android adapté aux usages actuels des jeunes, gratuit pour les parents, qui protège et accompagne une autonomie progressive. La vision complète reste dans le [cahier des charges](CAHIER_DES_CHARGES.md) et le [registre](FEATURE_REGISTER.md). La première livraison en est une étape et ne remplace pas cette vision.
 
-La technologie occupe une place importante dans la vie familiale, sans qu’un professionnel puisse accompagner chaque foyer au quotidien. CADRE entend apporter des repères compréhensibles et des outils concrets, en complément du dialogue et de l’accompagnement humain.
+## 1. Stabiliser la première livraison
+- Parcours : besoins initiaux → charte/contrat → décisions par famille de sujets → recommandations expliquées → validation parentale → état réel des contrôles.
+- Mettre à disposition les références pédagogiques vérifiées, avec leurs droits distincts.
+- Choisir explicitement les contrôles du pilote selon une évaluation technique, sans retirer les autres demandes du registre.
+- Préciser les modèles/versions Android, le mode d’installation et les prérequis acceptables pour des familles.
+- Décrire les décisions restantes ; aucun abandon ou ajout majeur implicite.
 
-Le projet s’inscrit dans la création de la future association Éducation Numérique France. Sa vocation est l’utilité sociale et l’intérêt collectif ; cela ne revendique aucun statut officiel d’intérêt général ou de reconnaissance d’utilité publique. L’objectif est de remettre gratuitement une première version Android fonctionnelle et testée à des parents volontaires lors des conférences, puis de l’améliorer avec leurs besoins et leurs expériences.
+## 2. Construire le parcours et le moteur de règles
+Implémenter les écrans parent/enfant, persistance, règles typées, recommandations explicables et progression des droits. Le contrat et la charte interviennent dès ce parcours, pas dans une phase finale.
+Le mode apprentissage organise des moments choisis pour apprendre avec les outils numériques.
+Missions : #3, #13, #17. Le laboratoire #4 permet d’essayer les parcours sur un appareil mais ne prouve aucun contrôle distant.
 
-Nous recherchons un engagement bénévole concret : comprendre la finalité éducative, choisir une mission à sa mesure, échanger sur les choix, tester et documenter son travail, signaler les difficultés et prévenir en cas d’indisponibilité. Une contribution ponctuelle est bienvenue ; aucune durée ni disponibilité minimale n’est imposée. Les parents participent aussi aux choix et aux essais, sans compétence technique nécessaire.
+## 3. Relier et appliquer
+Implémenter appairage, synchronisation, révocation, états hors ligne, puis les contrôles du pilote retenus.
+Missions : #2 (architecture), #5 (capacités), #6 (web), #15/#16 (qualification ciblée), #19 (intégration réelle).
+Traiter les capacités à risque tôt, avant de faire dépendre toute l’architecture d’une hypothèse non vérifiée.
 
-La gratuité pour les parents est un objectif de diffusion du projet ; elle n’annule pas les coûts d’hébergement, de maintenance ou d’accompagnement à prévoir. Le code reste sous licence MIT ; les contenus pédagogiques, noms et logos restent distingués.
+## 4. Vérifier et proposer aux parents volontaires
+Build reproductible, tests fonctionnels et sécurité, documentation d’installation/retrait, APK identifiée par version/commit, parcours de retour accessible.
+Missions : #1, #7, #9, #10, #11, #18. La mission #11 garde son périmètre convenu.
+Le pilote est gratuit et proposé lors des conférences ENF après validation technique. Les retours alimentent bugs, besoins et nouvelles versions.
 
-## Missions de réalisation et suivi
+## Réception — mission #12
+- Parcours familial et validation des recommandations démontrés.
+- Appairage et règle synchronisée, au moins un contrôle réel convenu et testé ; état indisponible/permission manquante/simulé correctement affiché.
+- Révocation, déconnexion/reprise, redémarrage et retrait testés.
+- Deux configurations Android documentées ; compatibilités non vérifiées signalées.
+- Aucune anomalie critique connue laissée sans traitement avant diffusion.
+- Limites, confidentialité, aide et procédure de retour expliquées aux familles.
 
-- #13 — Développer les modes école, apprentissage et divertissement et les règles modulaires
-- #14 — Développer les rappels de durée et évaluer séparément la détection du défilement
-- #15 — Qualifier et développer les contrôles notifications, caméra, micro et communications
-- #16 — Évaluer les filtrages images, médias, liens et langage sans accès aux contenus privés
-- #17 — Développer demandes d’extension, accompagnement et rapports d’usage
-- #18 — Préparer le pilote gratuit et implémenter les retours des parents
-- #19 — Implémenter l’appairage parent/enfant et livrer un parcours réel de bout en bout
+Le nombre d’issues fermées ne constitue pas une preuve de livraison. Les demandes d’extension, rapports et filtrage additionnel restent des lots possibles ; ils ne deviennent pas obligatoires pour le premier pilote sans décision explicite.
 
-Consulter [le référentiel](FEATURE_REGISTER.md). La mission #12 coordonne la réception. #1 à #11 soutiennent la réalisation ; #11 conserve son périmètre accepté. Les missions spécialisées ne sont pas toutes obligatoires pour le premier pilote : la sélection doit être explicite et validée, sans effacer les demandes ultérieures.
-
-
-## Phase 0 — Sécuriser le socle
-- Audit du code existant, du manifeste et des autorisations.
-- État des lieux des fonctionnalités réellement testées.
-- Choix de licence et gouvernance de contribution.
-- Tests unitaires, CI et documentation de build.
-
-## Phase 1 — Prototype éducatif démontrable
-- Modèle de règles typées, validation et persistance.
-- Mode laboratoire parent/enfant **sur un seul appareil**, avec état simulé explicitement.
-- Interface parent et interface enfant, sans privilèges système.
-- Journal de décisions et tests de scénarios.
-
-## Phase 2 — Appairage sécurisé
-- Architecture de communication et modèle de menace.
-- Appairage, authentification, synchronisation et révocation.
-- Demandes d'extension et réponses parentales.
-- Tests de déconnexion et de synchronisation.
-
-## Phase 3 — Contrôles Android réels
-- Étude documentée de Device Owner/Profile Owner/Usage Access/VPN.
-- Contrôles réalisables sur appareil de test dédié.
-- Horaires, quotas, filtrage de sites selon capacités vérifiées.
-- Tests sur plusieurs versions Android et constructeurs.
-
-## Phase 4 — Éducation, confidentialité, fiabilité
-- Parcours d'autonomie, contrat familial, explications et aide aux incidents.
-- Rapports d'usage minimaux ; transparence et suppression des données.
-- Accessibilité, sécurité, documentation et tests de bout en bout.
-
-**Règle :** aucune phase n'est déclarée terminée sans preuve reproductible. Les priorités et solutions restent ouvertes aux contributeurs.
-
-## Livrable final et critères de réussite
-
-L’objectif est une **première version fonctionnelle livrée**, pas seulement un démonstrateur. La [mission globale #12](https://github.com/dafonton77-tech/Cadreenf/issues/12) pilote le développement, l’intégration et la réception des lots. Les phases ci-dessus doivent produire du code intégré et des preuves de fonctionnement, au-delà des propositions d’architecture.
-
-La réception exige des APK versionnées, une compilation reproductible, un scénario parent/enfant de bout en bout avec restriction réelle et extension temporaire, des essais documentés sur au moins deux configurations Android, une revue de sécurité/confidentialité et un guide d’installation et de retrait. Toute fonction conditionnelle, inaccessible ou non testée est signalée. Le laboratoire sur un seul appareil permet de tester les parcours mais ne valide pas la communication entre appareils ni l’efficacité des restrictions. Les issues #1 à #11 sont des travaux de soutien ; elles ne couvrent pas à elles seules cette livraison.
-
-## Périmètre prioritaire validé — pilote Android gratuit
-La première livraison vise une application Android fonctionnelle, remise gratuitement à des parents volontaires lors des conférences Éducation Numérique France pour une phase de test encadrée. Le prototype actuel ne doit pas être distribué comme une protection opérationnelle.
-
-Les parents testeurs participent à l’amélioration : besoins réels, fonctions utiles ou manquantes, difficultés d’installation et d’utilisation, dysfonctionnements et propositions. Prévoir un moyen simple de retour accessible depuis l’application, sans forum intégré : type de retour, description, version de l’application et modèle/version Android, avec informations techniques transmises volontairement. Ne demander aucun contenu privé ni information identifiante sur les enfants ; anonymiser les éléments avant publication sur GitHub.
-
-Organiser le cycle : version pilote identifiée → essais volontaires → retours → tri des bugs et besoins → corrections priorisées → nouvelle version → nouvelle vérification. Fournir une notice sur les fonctions validées, limites, retrait de l’application et procédure de signalement ; vérifier le parcours de retour avant le pilote.
-
-Le périmètre exact des fonctions du premier pilote sera figé selon faisabilité et tests. Les lots ci-dessous sont une cible de développement, pas l’exigence de tout livrer avant un premier pilote limité. Aucun contrôle annoncé comme actif sans preuve. iOS, compatibilité universelle et forum communautaire sont hors du périmètre de cette première livraison.
-
-Suivi : [mission #12](https://github.com/dafonton77-tech/Cadreenf/issues/12).
+## Réserve d’idées
+Le forum est reporté après le pilote. La friction des icônes, les messages urgents et l’IA ne font pas partie des travaux prioritaires. La sélection du pilote ne supprime pas la vision plus large. La licence MIT est déjà publiée ; la gouvernance restante est suivie dans #8.
