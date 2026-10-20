@@ -29,7 +29,7 @@ Merci de votre intérêt pour ce projet éducatif. **Les contributions sont bén
 
 ## Licence et droits
 
-**Aucune licence open source n'a encore été adoptée.** Le code est visible mais n'est pas librement réutilisable par défaut. Avant d'envoyer du code, merci de discuter des modalités de licence dans une issue. Les propositions, revues, documentation et discussions peuvent commencer immédiatement. Ne copiez pas de code tiers sans licence compatible.
+Le **code source est publié sous licence MIT** ([LICENSE](LICENSE)). En soumettant une contribution de code, vous acceptez qu'elle soit distribuée sous MIT et certifiez disposer des droits nécessaires. Les marques, logos et contenus pédagogiques préexistants ENF ne sont pas couverts automatiquement ([NOTICE.md](NOTICE.md)). Ne copiez pas de code tiers sans licence compatible.
 
 ## Langues
 
