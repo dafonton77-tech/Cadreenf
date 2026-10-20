@@ -1,4 +1,28 @@
-# Feuille de route — proposition ouverte à discussion
+# Feuille de route — contrôle parental éducatif et accompagnant
+
+## Notre ambition et le sens de l’engagement
+CADRE vise un contrôle parental Android d’un nouveau genre : éducatif, modulaire et accompagnant. Il associe protections réglables, modes d’activité, prise de conscience des usages, dialogue familial et autonomie progressive. C’est une ambition de conception, pas une affirmation d’innovation unique ni de fonctions déjà disponibles.
+
+La technologie occupe une place importante dans la vie familiale, sans qu’un professionnel puisse accompagner chaque foyer au quotidien. CADRE entend apporter des repères compréhensibles et des outils concrets, en complément du dialogue et de l’accompagnement humain.
+
+Le projet s’inscrit dans la création de la future association Éducation Numérique France. Sa vocation est l’utilité sociale et l’intérêt collectif ; cela ne revendique aucun statut officiel d’intérêt général ou de reconnaissance d’utilité publique. L’objectif est de remettre gratuitement une première version Android fonctionnelle et testée à des parents volontaires lors des conférences, puis de l’améliorer avec leurs besoins et leurs expériences.
+
+Nous recherchons un engagement bénévole concret : comprendre la finalité éducative, choisir une mission à sa mesure, échanger sur les choix, tester et documenter son travail, signaler les difficultés et prévenir en cas d’indisponibilité. Une contribution ponctuelle est bienvenue ; aucune durée ni disponibilité minimale n’est imposée. Les parents participent aussi aux choix et aux essais, sans compétence technique nécessaire.
+
+La gratuité pour les parents est un objectif de diffusion du projet ; elle n’annule pas les coûts d’hébergement, de maintenance ou d’accompagnement à prévoir. Le code reste sous licence MIT ; les contenus pédagogiques, noms et logos restent distingués.
+
+## Missions de réalisation et suivi
+
+- #13 — Développer les modes école, apprentissage et divertissement et les règles modulaires
+- #14 — Développer les rappels de durée et évaluer séparément la détection du défilement
+- #15 — Qualifier et développer les contrôles notifications, caméra, micro et communications
+- #16 — Évaluer les filtrages images, médias, liens et langage sans accès aux contenus privés
+- #17 — Développer demandes d’extension, accompagnement et rapports d’usage
+- #18 — Préparer le pilote gratuit et implémenter les retours des parents
+- #19 — Implémenter l’appairage parent/enfant et livrer un parcours réel de bout en bout
+
+Consulter [le référentiel](FEATURE_REGISTER.md). La mission #12 coordonne la réception. #1 à #11 soutiennent la réalisation ; #11 conserve son périmètre accepté. Les missions spécialisées ne sont pas toutes obligatoires pour le premier pilote : la sélection doit être explicite et validée, sans effacer les demandes ultérieures.
+
 
 ## Phase 0 — Sécuriser le socle
 - Audit du code existant, du manifeste et des autorisations.
