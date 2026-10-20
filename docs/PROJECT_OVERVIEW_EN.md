@@ -1,27 +1,19 @@
-# CADRE — educational, modular Android parental controls
+# CADRE — Android parental controls for how young people use phones today
 
-CADRE aims to support families through configurable protections, school/learning/leisure modes, usage awareness, family dialogue and gradual autonomy. The future Éducation Numérique France association is being established. This is a social-purpose project, not a claim of official charitable recognition or unique technological novelty.
+We welcome volunteers to implement and deliver a working Android application, offered free to parents, combining practical protection, family support and gradual autonomy.
 
-Our delivery goal is a working Android pilot offered free to volunteer parents at ENF conferences, improved through their needs, usability feedback and bug reports. We welcome concrete volunteer engagement, including implementation, testing and communication within each contributor’s availability; occasional contributions and parent participation are welcome. The current prototype is not ready to protect a child. Android coverage must be validated; iOS, universal compatibility and an integrated forum are outside the first pilot.
+The vision covers activities within apps, communications, sharing, notifications and life contexts, beyond screen-time quotas. Families define their own framework. A family charter and agreement support initial setup, explainable setting recommendations and parent-approved changes; they are tools serving the wider product goal.
 
-The [feature register](FEATURE_REGISTER.md) retains known requests and limitations. It distinguishes time reminders from actual scroll detection and records image/media/link/language filtering requests without promising universal third-party-app control or access to private content. No private messages, photos, videos or audio collection, keylogging or screen recording is allowed. Semantic filtering may conflict with that boundary and is not implicitly authorized.
+Learning mode schedules family-chosen opportunities to learn with digital tools, without automatically prescribing apps or claiming to measure learning.
 
-Implementation tasks: #13–#19. Pilot delivery and acceptance: #12. Original introductory material follows for technical context.
+**Current status: experimental Kotlin prototype, not operational child protection.** Initial work includes local preferences and experimental device-policy commands. Pairing, synchronization and the family journey remain to be implemented.
 
-# CADRE — Educational Android Parental Controls
+Our first delivery is a limited, genuinely working Android pilot for volunteer parents at ENF conferences, refined through their feedback. It must demonstrate the agreed controls on documented devices. The exact pilot controls require an explicit scope decision.
 
-**Status: experimental Android v0.1 prototype; not ready to protect children.**
+The project supports the future Éducation Numérique France association, currently being established. Volunteer participation can be occasional; choose a focused issue and submit a reviewed PR. No one is expected to build the whole app alone.
 
-CADRE is an initiative associated with Éducation Numérique France (ENF). We aim to combine feasible Android safety controls with family dialogue, gradual digital autonomy, transparent rules and privacy by design.
+Known requests remain in the [feature register](FEATURE_REGISTER.md), including goals whose feasibility is not validated. Contributors should propose and assess solutions; technical constraints do not silently delete user requests. Universal control inside third-party apps is not promised.
 
-**Existing:** Kotlin Android skeleton, GitHub Actions build, local preference switches (not enforced), experimental DevicePolicyManager camera and package controls (not device-validated).
+No private message/photo/video/audio collection, keylogging or screen recording. Source code is MIT; ENF educational materials and branding have separate rights. The HTML family-agreement reference and book charter have been located but are not yet included.
 
-**Not built:** parent/child pairing, secure synchronization, time schedules, app limits, web allowlist, reports, permission requests, production UI, tests and privacy/security architecture.
-
-**Android limitations:** we cannot universally block media inside third-party encrypted messengers while allowing text, nor guarantee device-wide enforcement without suitable Android management privileges. Device Owner must not be casually enabled on personal devices.
-
-We welcome **volunteer** Android/Kotlin engineers, security reviewers, QA, UX and documentation contributors. See [contributing](../CONTRIBUTING.md), [roadmap](ROADMAP.md) and [technical feasibility](FAISABILITE_ANDROID.md).
-
-**Code license: MIT** (see [LICENSE](../LICENSE) and [NOTICE.md](../NOTICE.md)). ENF's pre-existing educational content, marks and logos are not automatically licensed. Contributions are voluntary; no paid work is promised.
-
-[Repository issues](../../issues)
+[Start here](START_HERE.md) · [Contributing](../CONTRIBUTING.md) · [Roadmap](ROADMAP.md) · [Pilot delivery #12](https://github.com/dafonton77-tech/Cadreenf/issues/12)
