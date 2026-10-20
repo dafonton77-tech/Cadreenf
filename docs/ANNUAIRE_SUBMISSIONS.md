@@ -81,3 +81,13 @@ Site : https://up-for-grabs.net/ — vérifier la procédure d'ajout du projet d
 ## Suivi honnête
 
 Ne marquer une candidature comme **soumise** qu'avec une URL de Pull Request ou un accusé de réception. Ne marquer une annonce comme **publiée** qu'avec l'URL du post accessible. Ne pas confondre dépôt prêt à accueillir des contributions et recrutement effectif.
+
+## Objectif de recrutement précisé — première version fonctionnelle
+
+Dans chaque candidature et annonce, préciser : **Nous recherchons des bénévoles pour développer, intégrer et livrer une première version Android fonctionnelle, avec appairage parent/enfant, règles synchronisées, contrôles réellement vérifiés, demandes d’extension et rapports respectueux de la vie privée. Les contributions aux études, tests et à l’interface soutiennent cet objectif de livraison. Le périmètre des contrôles dépend des possibilités Android validées.**
+
+English: **We welcome volunteer contributors to implement, integrate and deliver a working first Android release: secure parent/child pairing, synchronized rules, verified controls, extension requests and privacy-respecting usage reports. Research, testing and UI tasks support this delivery goal. Supported controls depend on validated Android capabilities.**
+
+Mission détaillée et critères de réception : https://github.com/dafonton77-tech/Cadreenf/issues/12
+
+Cette clarification ne constitue pas une publication externe ; les états de soumission ci-dessus restent inchangés.
