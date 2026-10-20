@@ -1,0 +1,20 @@
+title: "[Idée] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "Bienvenue ! Proposez une idée réalisable et respectueuse de la vie privée."
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problème à résoudre
+      description: Quel besoin des familles ou des enfants cette idée traite-t-elle ?
+    validations:
+      required: true
+  - type: textarea
+    id: feasibility
+    attributes:
+      label: Faisabilité Android et limites
+      description: Précisez si l'idée nécessite des privilèges Android particuliers.
+    validations:
+      required: true
