@@ -1,3 +1,13 @@
+# CADRE — educational, modular Android parental controls
+
+CADRE aims to support families through configurable protections, school/learning/leisure modes, usage awareness, family dialogue and gradual autonomy. The future Éducation Numérique France association is being established. This is a social-purpose project, not a claim of official charitable recognition or unique technological novelty.
+
+Our delivery goal is a working Android pilot offered free to volunteer parents at ENF conferences, improved through their needs, usability feedback and bug reports. We welcome concrete volunteer engagement, including implementation, testing and communication within each contributor’s availability; occasional contributions and parent participation are welcome. The current prototype is not ready to protect a child. Android coverage must be validated; iOS, universal compatibility and an integrated forum are outside the first pilot.
+
+The [feature register](FEATURE_REGISTER.md) retains known requests and limitations. It distinguishes time reminders from actual scroll detection and records image/media/link/language filtering requests without promising universal third-party-app control or access to private content. No private messages, photos, videos or audio collection, keylogging or screen recording is allowed. Semantic filtering may conflict with that boundary and is not implicitly authorized.
+
+Implementation tasks: #13–#19. Pilot delivery and acceptance: #12. Original introductory material follows for technical context.
+
 # CADRE — Educational Android Parental Controls
 
 **Status: experimental Android v0.1 prototype; not ready to protect children.**
