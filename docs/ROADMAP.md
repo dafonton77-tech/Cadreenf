@@ -27,13 +27,13 @@ Le pilote est gratuit et proposé lors des conférences ENF après validation te
 
 ## Réception — mission #12
 - Parcours familial et validation des recommandations démontrés.
-- Appairage et règle synchronisée, au moins un contrôle réel convenu et testé ; état indisponible/permission manquante/simulé correctement affiché.
+- Appairage, règles synchronisées et fonctions de la livraison convenue réellement testées ; état indisponible/permission manquante/simulé correctement affiché. Un seul contrôle démontré ne vaut pas réalisation de la vision complète.
 - Révocation, déconnexion/reprise, redémarrage et retrait testés.
 - Deux configurations Android documentées ; compatibilités non vérifiées signalées.
 - Aucune anomalie critique connue laissée sans traitement avant diffusion.
 - Limites, confidentialité, aide et procédure de retour expliquées aux familles.
 
-Le nombre d’issues fermées ne constitue pas une preuve de livraison. Les demandes d’extension, rapports et filtrage additionnel restent des lots possibles ; ils ne deviennent pas obligatoires pour le premier pilote sans décision explicite.
+Le nombre d’issues fermées ne constitue pas une preuve de livraison. Les onze familles restent la cible et chacune est reliée à des missions. Toute livraison partielle et tout report doivent être explicitement acceptés par le porteur avant diffusion, avec les écarts conservés dans le suivi. Aucun report n’est décidé par ce document.
 
 ## Réserve d’idées
 Le forum est reporté après le pilote. La friction des icônes, les messages urgents et l’IA ne font pas partie des travaux prioritaires. La sélection du pilote ne supprime pas la vision plus large. La licence MIT est déjà publiée ; la gouvernance restante est suivie dans #8.
