@@ -36,3 +36,14 @@
 L’objectif est une **première version fonctionnelle livrée**, pas seulement un démonstrateur. La [mission globale #12](https://github.com/dafonton77-tech/Cadreenf/issues/12) pilote le développement, l’intégration et la réception des lots. Les phases ci-dessus doivent produire du code intégré et des preuves de fonctionnement, au-delà des propositions d’architecture.
 
 La réception exige des APK versionnées, une compilation reproductible, un scénario parent/enfant de bout en bout avec restriction réelle et extension temporaire, des essais documentés sur au moins deux configurations Android, une revue de sécurité/confidentialité et un guide d’installation et de retrait. Toute fonction conditionnelle, inaccessible ou non testée est signalée. Le laboratoire sur un seul appareil permet de tester les parcours mais ne valide pas la communication entre appareils ni l’efficacité des restrictions. Les issues #1 à #11 sont des travaux de soutien ; elles ne couvrent pas à elles seules cette livraison.
+
+## Périmètre prioritaire validé — pilote Android gratuit
+La première livraison vise une application Android fonctionnelle, remise gratuitement à des parents volontaires lors des conférences Éducation Numérique France pour une phase de test encadrée. Le prototype actuel ne doit pas être distribué comme une protection opérationnelle.
+
+Les parents testeurs participent à l’amélioration : besoins réels, fonctions utiles ou manquantes, difficultés d’installation et d’utilisation, dysfonctionnements et propositions. Prévoir un moyen simple de retour accessible depuis l’application, sans forum intégré : type de retour, description, version de l’application et modèle/version Android, avec informations techniques transmises volontairement. Ne demander aucun contenu privé ni information identifiante sur les enfants ; anonymiser les éléments avant publication sur GitHub.
+
+Organiser le cycle : version pilote identifiée → essais volontaires → retours → tri des bugs et besoins → corrections priorisées → nouvelle version → nouvelle vérification. Fournir une notice sur les fonctions validées, limites, retrait de l’application et procédure de signalement ; vérifier le parcours de retour avant le pilote.
+
+Le périmètre exact des fonctions du premier pilote sera figé selon faisabilité et tests. Les lots ci-dessous sont une cible de développement, pas l’exigence de tout livrer avant un premier pilote limité. Aucun contrôle annoncé comme actif sans preuve. iOS, compatibilité universelle et forum communautaire sont hors du périmètre de cette première livraison.
+
+Suivi : [mission #12](https://github.com/dafonton77-tech/Cadreenf/issues/12).
