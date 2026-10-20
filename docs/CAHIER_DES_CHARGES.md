@@ -2,6 +2,21 @@
 
 Ce document décrit des **objectifs de produit**, pas des fonctionnalités déjà disponibles. Chaque fonctionnalité devra faire l'objet d'une étude de faisabilité, d'un modèle de menace et de tests.
 
+## Notre ambition et le sens de l’engagement
+CADRE vise un contrôle parental Android d’un nouveau genre : éducatif, modulaire et accompagnant. Il associe protections réglables, modes d’activité, prise de conscience des usages, dialogue familial et autonomie progressive. C’est une ambition de conception, pas une affirmation d’innovation unique ni de fonctions déjà disponibles.
+
+La technologie occupe une place importante dans la vie familiale, sans qu’un professionnel puisse accompagner chaque foyer au quotidien. CADRE entend apporter des repères compréhensibles et des outils concrets, en complément du dialogue et de l’accompagnement humain.
+
+Le projet s’inscrit dans la création de la future association Éducation Numérique France. Sa vocation est l’utilité sociale et l’intérêt collectif ; cela ne revendique aucun statut officiel d’intérêt général ou de reconnaissance d’utilité publique. L’objectif est de remettre gratuitement une première version Android fonctionnelle et testée à des parents volontaires lors des conférences, puis de l’améliorer avec leurs besoins et leurs expériences.
+
+Nous recherchons un engagement bénévole concret : comprendre la finalité éducative, choisir une mission à sa mesure, échanger sur les choix, tester et documenter son travail, signaler les difficultés et prévenir en cas d’indisponibilité. Une contribution ponctuelle est bienvenue ; aucune durée ni disponibilité minimale n’est imposée. Les parents participent aussi aux choix et aux essais, sans compétence technique nécessaire.
+
+La gratuité pour les parents est un objectif de diffusion du projet ; elle n’annule pas les coûts d’hébergement, de maintenance ou d’accompagnement à prévoir. Le code reste sous licence MIT ; les contenus pédagogiques, noms et logos restent distingués.
+
+## Suivi de toutes les demandes connues
+
+Le [référentiel détaillé](FEATURE_REGISTER.md) complète les familles ci-dessous : modes école/apprentissage/divertissement, rappels de durée distincts du défilement, notifications, capteurs, appels/SMS, images/médias/liens/langage, protection, retours et communauté. Les demandes en conflit technique ou avec la confidentialité restent suivies sans promesse d’implémentation.
+
 ## A. Parent / enfant
 
 - Deux rôles distincts ; appairage sécurisé ; révocation et réassociation.
