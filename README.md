@@ -39,3 +39,7 @@ Nous recherchons des développeurs Android/Kotlin, architectes, spécialistes r�
 ## Organisation
 
 Projet porté dans le cadre de la démarche **Éducation Numérique France (ENF)**. Les modalités de gouvernance et de licence sont à formaliser. Le présent dépôt est un espace de développement expérimental, pas une publication commerciale.
+
+## Mission de livraison : une application fonctionnelle
+
+Nous recherchons des bénévoles pour **développer, intégrer et livrer une première version Android utilisable**, au-delà des études et de la documentation. La [mission globale #12](https://github.com/dafonton77-tech/Cadreenf/issues/12) définit les lots de réalisation et les critères de réception : appairage, règles synchronisées, restrictions réellement vérifiées, demandes d’extension, rapports minimaux et APK testées. Les onze premières missions contribuent à cet objectif ; leur clôture seule ne constitue pas une livraison. Le périmètre dépend des capacités Android validées et doit distinguer installation ordinaire et privilèges particuliers.
