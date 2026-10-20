@@ -2,6 +2,23 @@
 
 **Date de préparation : 20 octobre 2026.** Les annonces ci-dessous sont des **brouillons prêts à publier**, pas des publications externes confirmées.
 
+## Notre ambition et le sens de l’engagement
+CADRE vise un contrôle parental Android d’un nouveau genre : éducatif, modulaire et accompagnant. Il associe protections réglables, modes d’activité, prise de conscience des usages, dialogue familial et autonomie progressive. C’est une ambition de conception, pas une affirmation d’innovation unique ni de fonctions déjà disponibles.
+
+La technologie occupe une place importante dans la vie familiale, sans qu’un professionnel puisse accompagner chaque foyer au quotidien. CADRE entend apporter des repères compréhensibles et des outils concrets, en complément du dialogue et de l’accompagnement humain.
+
+Le projet s’inscrit dans la création de la future association Éducation Numérique France. Sa vocation est l’utilité sociale et l’intérêt collectif ; cela ne revendique aucun statut officiel d’intérêt général ou de reconnaissance d’utilité publique. L’objectif est de remettre gratuitement une première version Android fonctionnelle et testée à des parents volontaires lors des conférences, puis de l’améliorer avec leurs besoins et leurs expériences.
+
+Nous recherchons un engagement bénévole concret : comprendre la finalité éducative, choisir une mission à sa mesure, échanger sur les choix, tester et documenter son travail, signaler les difficultés et prévenir en cas d’indisponibilité. Une contribution ponctuelle est bienvenue ; aucune durée ni disponibilité minimale n’est imposée. Les parents participent aussi aux choix et aux essais, sans compétence technique nécessaire.
+
+La gratuité pour les parents est un objectif de diffusion du projet ; elle n’annule pas les coûts d’hébergement, de maintenance ou d’accompagnement à prévoir. Le code reste sous licence MIT ; les contenus pédagogiques, noms et logos restent distingués.
+
+## Message de recrutement de référence — version actualisée
+
+> Participez bénévolement à CADRE, un contrôle parental Android éducatif, modulaire et accompagnant, dans le cadre de la future association Éducation Numérique France. Nous voulons aider les familles à comprendre et encadrer les usages, avec des modes adaptés aux activités, des protections réglables et une autonomie progressive. Notre objectif concret est une première application fonctionnelle offerte gratuitement à des parents volontaires lors des conférences, puis améliorée avec leurs besoins et leurs retours. Nous cherchons des personnes prêtes à contribuer au développement, aux essais et aux choix pédagogiques, selon leurs compétences et disponibilités. Le prototype actuel n’est pas prêt à protéger un enfant. Code MIT ; contrôles conditionnés aux capacités Android vérifiées ; aucun accès aux contenus privés. Missions : https://github.com/dafonton77-tech/Cadreenf/issues
+
+Ce texte actualisé fait référence pour adapter les brouillons de plateforme ci-dessous. Aucune publication externe n’est confirmée par cette mise à jour.
+
 ## 1. For Good First Issue (GitHub)
 
 Instructions officielles : https://github.com/github/forgoodfirstissue et https://docs.github.com/en/nonprofit/contributing-to-open-source-for-good/adding-an-open-source-project
