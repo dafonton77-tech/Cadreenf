@@ -26,7 +26,7 @@ Construire un outil Android **réaliste, transparent et respectueux de la vie pr
 
 Nous recherchons des développeurs Android/Kotlin, architectes, spécialistes réseau/sécurité, UX, QA et documentation. Commencez par les [issues ouvertes](../../issues), en particulier les tâches d'audit et de cadrage. Lisez [CONTRIBUTING.md](CONTRIBUTING.md) avant une Pull Request.
 
-**Contribution volontaire, sans rémunération garantie.** Une licence open source n'a **pas encore été choisie** : le dépôt est public, mais la visibilité du code ne vaut pas autorisation générale de le réutiliser ou redistribuer. Les contributions de code seront intégrées après clarification de la licence et des droits. Les discussions, audits et propositions documentaires sont bienvenus dès maintenant.
+**Contribution volontaire, sans rémunération garantie.** Le **code source est sous licence MIT** : consultez [LICENSE](LICENSE) et [NOTICE.md](NOTICE.md). Les marques, logos et contenus pédagogiques préexistants d'ENF ne sont pas automatiquement licenciés. Les contributions de code sont bienvenues sous MIT.
 
 ## Pour les familles
 
