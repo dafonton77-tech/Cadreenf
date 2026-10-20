@@ -1,3 +1,37 @@
-# CADRE ENF
+# CADRE — Contrôle parental éducatif | Éducation Numérique France
 
-Prototype Android expérimental. Compilation et vérification à venir.
+> **Statut : prototype Android expérimental v0.1 — contributions bénévoles bienvenues.** L'application n'est **pas** un contrôle parental fonctionnel ni un produit prêt à protéger un enfant.
+
+**CADRE** est un projet de contrôle parental Android associant protections techniques, dialogue familial et autonomie progressive. Philosophie : **Comprendre · Encadrer · Protéger**. Les restrictions doivent être compréhensibles, proportionnées, explicites et réévaluables.
+
+🌍 **[English overview](docs/PROJECT_OVERVIEW_EN.md)** · 📘 [Fonctionnalités](docs/CAHIER_DES_CHARGES.md) · 🧭 [Feuille de route](docs/ROADMAP.md) · 🤝 [Contribuer](CONTRIBUTING.md) · 🛡️ [Sécurité](SECURITY.md) · ⚖️ [Faisabilité Android](docs/FAISABILITE_ANDROID.md)
+
+## Ce qui existe aujourd'hui
+
+- Projet Android natif Kotlin avec compilation automatisée GitHub Actions.
+- Écran expérimental de préférences locales pour six droits numériques (sans application des restrictions aux apps tierces).
+- Essai de désactivation de caméra via DevicePolicyManager (nécessite les autorisations adaptées ; **non validé sur appareil**).
+- Essai de suspension d'application via DevicePolicyManager (requiert **Device Owner** ; **non validé**).
+- Premier APK compilé et ouvert par le porteur du projet. **Cela ne prouve pas que les contrôles fonctionnent.**
+
+**Non développés :** application parent/enfant, appairage, synchronisation, filtrage web, horaires, rapports d'usage, demandes d'autorisation, gestion des comptes, chiffrement applicatif, tests de sécurité, interface de production.
+
+## Notre objectif
+
+Construire un outil Android **réaliste, transparent et respectueux de la vie privée**, où les parents définissent des règles et les enfants comprennent leurs droits, responsabilités et possibilités de progression. Aucune lecture clandestine des conversations, aucun keylogging, aucun enregistrement d'écran ou interception des photos/messages privés.
+
+**Nous ne promettons pas** le blocage sélectif des photos, liens ou vidéos à l'intérieur de toutes les messageries tierces : Android ne donne pas un tel contrôle universel.
+
+## Participer bénévolement
+
+Nous recherchons des développeurs Android/Kotlin, architectes, spécialistes réseau/sécurité, UX, QA et documentation. Commencez par les [issues ouvertes](../../issues), en particulier les tâches d'audit et de cadrage. Lisez [CONTRIBUTING.md](CONTRIBUTING.md) avant une Pull Request.
+
+**Contribution volontaire, sans rémunération garantie.** Une licence open source n'a **pas encore été choisie** : le dépôt est public, mais la visibilité du code ne vaut pas autorisation générale de le réutiliser ou redistribuer. Les contributions de code seront intégrées après clarification de la licence et des droits. Les discussions, audits et propositions documentaires sont bienvenus dès maintenant.
+
+## Pour les familles
+
+**Ne pas installer ce prototype comme dispositif de protection d'un enfant.** Ne pas essayer d'activer Device Owner sur un téléphone personnel utilisé au quotidien : la procédure peut exiger une réinitialisation et entraîner une perte de données.
+
+## Organisation
+
+Projet porté dans le cadre de la démarche **Éducation Numérique France (ENF)**. Les modalités de gouvernance et de licence sont à formaliser. Le présent dépôt est un espace de développement expérimental, pas une publication commerciale.
