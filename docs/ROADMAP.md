@@ -30,3 +30,9 @@
 - Accessibilité, sécurité, documentation et tests de bout en bout.
 
 **Règle :** aucune phase n'est déclarée terminée sans preuve reproductible. Les priorités et solutions restent ouvertes aux contributeurs.
+
+## Livrable final et critères de réussite
+
+L’objectif est une **première version fonctionnelle livrée**, pas seulement un démonstrateur. La [mission globale #12](https://github.com/dafonton77-tech/Cadreenf/issues/12) pilote le développement, l’intégration et la réception des lots. Les phases ci-dessus doivent produire du code intégré et des preuves de fonctionnement, au-delà des propositions d’architecture.
+
+La réception exige des APK versionnées, une compilation reproductible, un scénario parent/enfant de bout en bout avec restriction réelle et extension temporaire, des essais documentés sur au moins deux configurations Android, une revue de sécurité/confidentialité et un guide d’installation et de retrait. Toute fonction conditionnelle, inaccessible ou non testée est signalée. Le laboratoire sur un seul appareil permet de tester les parcours mais ne valide pas la communication entre appareils ni l’efficacité des restrictions. Les issues #1 à #11 sont des travaux de soutien ; elles ne couvrent pas à elles seules cette livraison.
