@@ -2,6 +2,20 @@
 
 Ce document décrit des **objectifs de produit**, pas des fonctionnalités déjà disponibles. Chaque fonctionnalité devra faire l'objet d'une étude de faisabilité, d'un modèle de menace et de tests.
 
+
+## Parcours central à construire
+Au premier lancement, la famille définit pourquoi l’enfant reçoit un téléphone, les usages initiaux et les conditions de progression. La charte pose les principes de respect, protection et responsabilité ; le contrat traduit les décisions familiales. Ils structurent la configuration, au lieu d’être des annexes.
+
+CADRE propose des réglages expliqués à partir du cadre choisi ; le parent les ajuste et valide. L’application distingue décision familiale, recommandation et contrôle réellement actif. Les demandes de nouvelles fonctions permettent de réexaminer les droits ; un âge prévu n’ouvre pas automatiquement un droit.
+
+Le mode apprentissage sert à programmer des moments choisis pour apprendre, découvrir ou développer une compétence avec le numérique. Il ne prescrit pas automatiquement des applications et ne prétend pas mesurer l’apprentissage.
+
+Les exigences de conception comprennent la validation parentale de nouveaux contacts, les droits par contact et type d’échange (texte, images, photos, vocaux, appels, vidéo, envoi/réception), et les modalités de notification (pastille, affichage silencieux, vibration, son, plages et exceptions). Leur portée technique doit être qualifiée par application et mode Android ; aucun contrôle universel n’est promis. Une restriction limitée ne remplace pas silencieusement la demande initiale.
+
+Priorité : construire une première version Android fonctionnelle et gratuite à tester avec des parents lors des conférences ENF. Ne pas étendre le pilote au forum, à la friction des icônes ou à un nouveau système de messages urgents. Contrat HTML et charte du livre identifiés, mais pas encore ajoutés au dépôt.
+
+Contributeurs : choisissez une mission existante, indiquez le lot souhaité, puis proposez une Pull Request ciblée. Pas de prise en charge de tout le projet exigée.
+
 ## Notre ambition et le sens de l’engagement
 CADRE vise un contrôle parental Android d’un nouveau genre : éducatif, modulaire et accompagnant. Il associe protections réglables, modes d’activité, prise de conscience des usages, dialogue familial et autonomie progressive. C’est une ambition de conception, pas une affirmation d’innovation unique ni de fonctions déjà disponibles.
 
