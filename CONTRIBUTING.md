@@ -14,12 +14,13 @@ Commencez par [START_HERE.md](docs/START_HERE.md) pour les documents, versions c
 4. Soumettez une Pull Request ciblée avec explications, captures si nécessaire, et procédure de test reproductible.
 
 ## Priorités
+Construire une application Android utile aux parents, conformément à la vision et à la première livraison #12 :
+- Vérifier le socle et les capacités nécessaires avant d’en dépendre.
+- Construire le parcours familial, les recommandations et les règles.
+- Implémenter appairage et contrôles retenus, puis tester réellement.
+- Préparer un pilote gratuit et recueillir les retours des parents.
 
-- Audit du prototype et tests reproductibles.
-- Architecture parent/enfant et modèle de règles.
-- Étude de faisabilité des contrôles selon le type de gestion Android.
-- Sécurité, consentement, minimisation des données.
-- Automatisation des tests et accessibilité.
+Les souhaits restent dans le registre, distincts des capacités validées. Décrire une limite n’autorise pas à supprimer une demande. Tout changement de portée important doit être discuté avec le porteur.
 
 ## Qualité attendue
 
