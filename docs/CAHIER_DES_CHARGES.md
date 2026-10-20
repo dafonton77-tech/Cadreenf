@@ -1,5 +1,8 @@
 # CADRE — Cahier des charges fonctionnel (vision, non implémentée)
 
+**[Les fonctionnalités que nous souhaitons construire — liste centrale](FEATURE_REGISTER.md)** : demandes détaillées, distinctes des fonctions disponibles et du premier pilote.
+
+
 L’objectif est de construire un contrôle parental Android adapté aux usages actuels des jeunes : activités dans les applications, communications, contenus partagés, sollicitations et contextes de vie. Protection, accompagnement et autonomie progressive guident le projet. La charte et le contrat sont des moyens au service de cet objectif.
 
 Ce document décrit des **objectifs de produit**, pas des fonctionnalités déjà disponibles. Chaque fonctionnalité devra faire l'objet d'une étude de faisabilité, d'un modèle de menace et de tests.
