@@ -12,6 +12,6 @@ CADRE is an initiative associated with Éducation Numérique France (ENF). We ai
 
 We welcome **volunteer** Android/Kotlin engineers, security reviewers, QA, UX and documentation contributors. See [contributing](../CONTRIBUTING.md), [roadmap](ROADMAP.md) and [technical feasibility](FAISABILITE_ANDROID.md).
 
-**Licensing is not decided yet.** Public source does not mean open-source licensing. Please discuss licensing before submitting code. No paid work is promised.
+**Code license: MIT** (see [LICENSE](../LICENSE) and [NOTICE.md](../NOTICE.md)). ENF's pre-existing educational content, marks and logos are not automatically licensed. Contributions are voluntary; no paid work is promised.
 
 [Repository issues](../../issues)
