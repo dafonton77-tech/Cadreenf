@@ -16,6 +16,10 @@
 
 **Non développés :** application parent/enfant, appairage, synchronisation, filtrage web, horaires, rapports d'usage, demandes d'autorisation, gestion des comptes, chiffrement applicatif, tests de sécurité, interface de production.
 
+## Impact social et objectifs de développement durable
+
+CADRE contribue à l'**ODD 4 — Éducation de qualité**, en accompagnant la littératie numérique et l'esprit critique, et à l'**ODD 16 — Paix, justice et institutions efficaces**, par la sensibilisation à la citoyenneté numérique, au respect d'autrui et à la prévention du cyberharcèlement. Il s'agit d'une orientation de projet, non d'une certification officielle.
+
 ## Notre objectif
 
 Construire un outil Android **réaliste, transparent et respectueux de la vie privée**, où les parents définissent des règles et les enfants comprennent leurs droits, responsabilités et possibilités de progression. Aucune lecture clandestine des conversations, aucun keylogging, aucun enregistrement d'écran ou interception des photos/messages privés.
@@ -24,7 +28,7 @@ Construire un outil Android **réaliste, transparent et respectueux de la vie pr
 
 ## Participer bénévolement
 
-Nous recherchons des développeurs Android/Kotlin, architectes, spécialistes réseau/sécurité, UX, QA et documentation. Commencez par les [issues ouvertes](../../issues), en particulier les tâches d'audit et de cadrage. Lisez [CONTRIBUTING.md](CONTRIBUTING.md) avant une Pull Request.
+Nous recherchons des développeurs Android/Kotlin, architectes, spécialistes réseau/sécurité, UX, QA et documentation. Commencez par les [issues ouvertes](../../issues), en particulier les missions [good first issue](../../issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) pour débuter. Lisez [CONTRIBUTING.md](CONTRIBUTING.md) avant une Pull Request.
 
 **Contribution volontaire, sans rémunération garantie.** Le **code source est sous licence MIT** : consultez [LICENSE](LICENSE) et [NOTICE.md](NOTICE.md). Les marques, logos et contenus pédagogiques préexistants d'ENF ne sont pas automatiquement licenciés. Les contributions de code sont bienvenues sous MIT.
 
