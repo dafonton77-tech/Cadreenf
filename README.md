@@ -6,6 +6,8 @@ Les besoins à traiter concernent autant ce que les jeunes font avec leur télé
 
 > **État actuel : prototype expérimental v0.1.** Ce dépôt ne fournit pas encore une protection opérationnelle pour un enfant. Les fonctionnalités décrites sont des objectifs de développement, sauf indication et preuves contraires.
 
+**[Liste centrale des onze familles validées et missions associées](docs/FEATURE_REGISTER.md)** · [Livraison de bout en bout](https://github.com/dafonton77-tech/Cadreenf/issues/27)
+
 ## Ce que nous voulons construire
 - Des fonctions modulaires choisies selon les besoins : applications, horaires, durées, modes d’activité, contacts, échanges, notifications, caméra et microphone.
 - Des droits progressifs : partir des usages justifiant le premier téléphone, anticiper les étapes et examiner les nouvelles demandes de l’enfant.
