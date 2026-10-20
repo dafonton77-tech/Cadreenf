@@ -20,10 +20,25 @@ La [vision fonctionnelle](docs/CAHIER_DES_CHARGES.md) et le [registre des demand
 ## Première livraison
 Une version Android limitée mais réellement fonctionnelle, proposée gratuitement à des parents volontaires lors des conférences ENF, puis améliorée grâce à leurs besoins et à leurs essais. Les critères de réception sont suivis dans la [mission #12](https://github.com/dafonton77-tech/Cadreenf/issues/12). La liste des contrôles du pilote doit être validée explicitement avant leur réalisation.
 
+## Profils recherchés pour livrer la première version testable
+
+**Priorité : un ou une référente technique Android/Kotlin**, volontaire pour coordonner l’architecture, les interfaces entre les lots, les revues de code et l’intégration. Ce rôle peut être partagé ; il ne suppose pas de réaliser seul l’application. Tony porte les besoins et les choix pédagogiques, en échange avec les contributeurs.
+
+Nous cherchons aussi :
+- **Développement Android/Kotlin :** moteur de règles et parcours familial (#3, #13, #17), appairage/synchronisation (#19), demandes et rapports (#24, #25), puis contrôles spécialisés (#15, #20 à #23).
+- **Sécurité et architecture :** modèle de menace, permissions, confidentialité, récupération et revue avant diffusion (#2, #5, #22, #26).
+- **Qualité et livraison Android :** builds reproductibles, tests automatiques et physiques, intégration et APK versionnées (#7, #9, #10, #27).
+- **Interface et accessibilité :** parcours compréhensibles pour les familles, textes et vérifications d’accessibilité (#11, #17).
+- **Parents testeurs :** besoins et retours lors du pilote encadré (#18), une fois la version techniquement validée.
+
+Ces profils sont recherchés : leur présence et leur disponibilité ne sont pas acquises.
+
+**Livrable attendu :** une APK Android installable, avec le parcours familial, les composants nécessaires et les fonctions convenues réellement intégrées et testées. Fournir les instructions, les appareils/versions vérifiés, les résultats des essais et les limites. Une maquette, une étude ou un APK qui se lance sans contrôles validés ne suffit pas. La liste complète des souhaits demeure la référence ; tout écart de la première version doit être explicitement accepté.
+
 ## Contribuer
 Choisissez une [mission ouverte](https://github.com/dafonton77-tech/Cadreenf/issues), indiquez votre intérêt, puis proposez une Pull Request ciblée. Une contribution ponctuelle est bienvenue ; personne n’a à réaliser seul tout le projet.
 
-Nous cherchons des compétences Android/Kotlin, architecture, sécurité, interface/accessibilité et tests. Les parents pourront aussi participer à la définition des besoins et aux essais.
+Pour démarrer, indiquez dans la mission choisie votre expérience, le lot qui vous intéresse et vos disponibilités approximatives. Les petites contributions restent bienvenues ; pour un lot technique, proposez d’abord l’approche et les dépendances. Le code passe par revue avant intégration. Participation bénévole, sans rémunération promise ni engagement de durée imposé.
 
 **[Bien démarrer](docs/START_HERE.md)** · [Contribuer](CONTRIBUTING.md) · [Feuille de route](docs/ROADMAP.md) · [English](docs/PROJECT_OVERVIEW_EN.md)
 
