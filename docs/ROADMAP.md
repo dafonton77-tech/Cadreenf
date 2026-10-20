@@ -37,3 +37,21 @@ Le nombre d’issues fermées ne constitue pas une preuve de livraison. Les dema
 
 ## Réserve d’idées
 Le forum est reporté après le pilote. La friction des icônes, les messages urgents et l’IA ne font pas partie des travaux prioritaires. La sélection du pilote ne supprime pas la vision plus large. La licence MIT est déjà publiée ; la gouvernance restante est suivie dans #8.
+
+## Correspondance complète après validation des onze familles
+
+| Famille validée | Missions responsables |
+|---|---|
+| 1. Cadre familial | #3, #17 |
+| 2. Progression et demandes | #3, #13, #17, #25 |
+| 3. Applications et durées | #3, #5, #13, #25 |
+| 4. Modes et rappels | #13, #14 |
+| 5. Contacts et échanges | #5, #20 |
+| 6. Notifications | #5, #21 |
+| 7. Caméra, micro et partage | #5, #15, #20 |
+| 8. Navigation et filtrage | #5, #6, #16 |
+| 9. Lieux et habitudes | #5, #13, #17, #23 |
+| 10. Rapports et fonctionnement protégé | #2, #19, #22, #24, #26 |
+| 11. Pilote, qualité et retours | #1, #7, #9, #10, #11, #18, #26, #27 |
+
+#20 contacts ; #21 notifications ; #22 protection ; #23 localisation ; #24 rapports ; #25 demandes ; #26 revue sécurité ; #27 intégration et APK. Les lots précédemment regroupés dans #15/#17 sont maintenant séparés. #11 conserve son périmètre accepté. La mission #12 suit l’ordre et la réception, sans imposer qu’un numéro d’issue soit un ordre chronologique.
