@@ -1,26 +1,54 @@
-# CADRE — Un contrôle parental éducatif au service des familles
+# CADRE — Un projet né de l'expérience du terrain et d'une conviction éducative
 
-## Pourquoi ce projet existe
+## Pourquoi CADRE existe
 
-**CADRE est un projet porté dans le cadre de la création de l'association Éducation Numérique France (ENF).** ENF a pour ambition d'accompagner les enfants, les adolescents, les parents et les acteurs éducatifs dans un usage plus conscient, responsable et protecteur du numérique. Son approche repose sur trois principes : **comprendre, encadrer, protéger**. Elle privilégie l'anticipation, le dialogue et l'autonomie progressive plutôt que la seule interdiction ou la sanction.
+**Derrière CADRE, il y a d'abord une conviction : les familles ne devraient pas être seules face aux défis du numérique.**
 
-Le smartphone occupe une place importante dans la vie des jeunes : échanges avec les proches, jeux, apprentissages, réseaux sociaux, photos et vidéos. Pour les familles, les difficultés ne se résument pas au temps d'écran. Elles concernent aussi les sollicitations permanentes, le respect des autres, la vie privée, les contenus partagés et les règles de vie à la maison. ENF souhaite aider les parents à poser un cadre clair, compréhensible et évolutif, sans les laisser seuls face à des réglages techniques complexes.
+Après vingt années d'expérience dans le domaine éducatif, j'ai progressivement pris conscience d'une réalité : les technologies évoluent beaucoup plus vite que les moyens dont disposent les parents pour accompagner leurs enfants.
 
-## Ce que CADRE veut apporter
+Aujourd'hui, offrir un premier smartphone à son enfant soulève de nombreuses questions. Comment le protéger sans l'étouffer ? Comment fixer des limites sans provoquer des conflits permanents ? Comment lui apprendre à devenir autonome tout en prévenant les risques auxquels il peut être confronté ?
 
-**CADRE vise une application Android gratuite pour les parents, associant outils de protection et démarche éducative.** Chaque famille doit pouvoir définir ses règles selon l'âge, les besoins et la maturité de l'enfant, puis les faire évoluer ensemble. L'objectif n'est pas de surveiller secrètement les jeunes, mais de rendre les règles explicites, de soutenir le dialogue et de développer leur autonomie.
+Les parents ne manquent pas nécessairement de volonté. **Ils manquent souvent d'outils concrets, accessibles et adaptés à leur réalité quotidienne.**
 
-À terme, l'application pourrait aider à gérer des plages horaires et des usages d'applications, accompagner les demandes d'autorisation, présenter des bilans d'usage compréhensibles et soutenir un contrat familial numérique. Les fonctions envisagées sont détaillées plus bas et dans le cahier des charges ; **leur faisabilité, leurs limites et leur disponibilité effective restent à démontrer sur Android**.
+C'est notamment pour répondre à ces difficultés que j'ai développé le projet **Éducation Numérique France (ENF)**, aujourd'hui en cours de structuration associative.
 
-## Pourquoi nous faisons appel à la communauté GitHub
+Notre philosophie repose sur une idée simple : **anticiper, encadrer, accompagner. Jamais punir par principe, jamais interdire systématiquement.** Notre démarche éducative vise à aider les familles à comprendre les usages numériques, à établir des règles cohérentes et à accompagner progressivement leurs enfants vers davantage de responsabilité.
 
-ENF apporte la vision éducative, les besoins exprimés par les familles et des ressources pédagogiques. Pour transformer cette vision en logiciel fiable, nous recherchons des **contributrices et contributeurs bénévoles** : développement Android/Kotlin, architecture, sécurité, tests, accessibilité, conception d'interfaces et documentation.
+Mais au fil de mon travail, une évidence s'est imposée : expliquer aux parents comment agir ne suffit pas toujours. Il faut également leur donner les moyens pratiques d'appliquer les décisions prises en famille.
 
-Il ne s'agit pas de demander à une seule personne de construire toute l'application. Des contributions ciblées, relues et testées, peuvent faire avancer le projet. Nous souhaitons construire une première version limitée mais réellement fonctionnelle, puis la proposer gratuitement à des parents volontaires dans un cadre de test encadré. Les contributions sont bénévoles, sans rémunération promise.
+**C'est ainsi qu'est née l'idée de CADRE.**
 
-**État actuel : prototype expérimental v0.1.** CADRE n'est pas encore une solution de protection opérationnelle pour un enfant. Les fonctions présentées sont des objectifs tant qu'elles ne sont pas développées, intégrées et vérifiées sur des appareils réels.
+## L'application que nous souhaitons construire
 
-**Nos engagements :** pas de collecte du contenu privé des messages, photos, vidéos ou enregistrements audio ; pas de keylogging ni d'enregistrement d'écran. Le respect de la vie privée, la transparence des limites techniques et la sécurité des familles font partie des exigences du projet.
+CADRE a pour ambition de devenir une **application Android gratuite pour les parents**, éducative et respectueuse de la vie privée, conçue autour de l'accompagnement plutôt que de la surveillance.
+
+Nous souhaitons que chaque famille puisse définir ses propres règles, accompagner l'évolution des droits de l'enfant et favoriser le dialogue. Nous ne voulons ni lire les conversations privées des enfants, ni espionner leurs activités, ni remplacer l'autorité parentale par un algorithme.
+
+**Nous voulons créer un outil qui aide les parents à exercer leur rôle éducatif tout en respectant progressivement l'autonomie de leurs enfants.**
+
+Les fonctionnalités souhaitées sont décrites dans les documents du projet. Certaines dépendent des capacités et restrictions d'Android : leur faisabilité et leur efficacité devront être étudiées, développées et vérifiées sur des appareils réels.
+
+## Pourquoi je fais appel à la communauté GitHub
+
+Je suis avant tout un professionnel de l'éducation, pas un développeur informatique.
+
+Je connais les difficultés rencontrées par les familles, les besoins éducatifs auxquels nous souhaitons répondre et les objectifs pédagogiques de ce projet. Mais pour transformer cette vision en une véritable application, j'ai besoin de compétences techniques que je ne possède pas.
+
+C'est pourquoi je fais appel à la communauté des développeurs.
+
+**Je ne recherche pas simplement des personnes capables d'écrire du code. Je recherche des personnes qui souhaitent mettre leurs compétences au service d'un projet éducatif et d'une ambition d'utilité sociale.**
+
+Chaque contribution, même modeste, peut nous aider à avancer. Personne n'est censé réaliser seul l'ensemble de l'application. Nous recherchons des contributions bénévoles, sans rémunération promise, en développement Android/Kotlin, sécurité, tests, accessibilité, conception et documentation.
+
+Notre objectif est de développer collectivement une première application Android réellement fonctionnelle, gratuite pour les familles, respectueuse de leur vie privée et techniquement fiable, puis de l'expérimenter auprès de parents volontaires dans un cadre encadré.
+
+**État actuel : prototype expérimental v0.1.** CADRE n'est pas encore une protection opérationnelle pour un enfant. Nous avons une vision, un cahier des charges et des besoins identifiés, mais il reste un véritable travail de développement, de vérification et de sécurisation. Nous ne promettons pas que toutes les fonctionnalités imaginées seront techniquement réalisables ; nous souhaitons les étudier sérieusement et avec transparence.
+
+**Confidentialité :** aucune collecte de contenus privés (messages, photos, vidéos, audio), aucun keylogging et aucun enregistrement d'écran.
+
+**CADRE n'a pas vocation à remplacer les parents. Il doit leur donner les moyens de mieux accompagner leurs enfants.**
+
+Et si, grâce à la mobilisation de bénévoles, nous parvenons à offrir gratuitement cet outil à des familles qui en ont besoin, alors chaque heure consacrée à son développement aura une véritable utilité.
 
 **[Liste centrale des onze familles validées et missions associées](docs/FEATURE_REGISTER.md)** · [Livraison de bout en bout](https://github.com/dafonton77-tech/Cadreenf/issues/27)
 
