@@ -1,10 +1,26 @@
-# CADRE — Un contrôle parental adapté aux usages des jeunes
+# CADRE — Un contrôle parental éducatif au service des familles
 
-**Nous recherchons des bénévoles pour construire et livrer une application Android fonctionnelle, gratuite pour les parents, qui associe protection, accompagnement éducatif et autonomie progressive.**
+## Pourquoi ce projet existe
 
-Les besoins à traiter concernent autant ce que les jeunes font avec leur téléphone que le temps qu’ils y passent : communiquer, partager des images ou des vocaux, jouer, apprendre, gérer les sollicitations et respecter les autres. CADRE veut permettre aux familles de définir leur propre cadre et de le faire évoluer.
+**CADRE est un projet porté dans le cadre de la création de l'association Éducation Numérique France (ENF).** ENF a pour ambition d'accompagner les enfants, les adolescents, les parents et les acteurs éducatifs dans un usage plus conscient, responsable et protecteur du numérique. Son approche repose sur trois principes : **comprendre, encadrer, protéger**. Elle privilégie l'anticipation, le dialogue et l'autonomie progressive plutôt que la seule interdiction ou la sanction.
 
-> **État actuel : prototype expérimental v0.1.** Ce dépôt ne fournit pas encore une protection opérationnelle pour un enfant. Les fonctionnalités décrites sont des objectifs de développement, sauf indication et preuves contraires.
+Le smartphone occupe une place importante dans la vie des jeunes : échanges avec les proches, jeux, apprentissages, réseaux sociaux, photos et vidéos. Pour les familles, les difficultés ne se résument pas au temps d'écran. Elles concernent aussi les sollicitations permanentes, le respect des autres, la vie privée, les contenus partagés et les règles de vie à la maison. ENF souhaite aider les parents à poser un cadre clair, compréhensible et évolutif, sans les laisser seuls face à des réglages techniques complexes.
+
+## Ce que CADRE veut apporter
+
+**CADRE vise une application Android gratuite pour les parents, associant outils de protection et démarche éducative.** Chaque famille doit pouvoir définir ses règles selon l'âge, les besoins et la maturité de l'enfant, puis les faire évoluer ensemble. L'objectif n'est pas de surveiller secrètement les jeunes, mais de rendre les règles explicites, de soutenir le dialogue et de développer leur autonomie.
+
+À terme, l'application pourrait aider à gérer des plages horaires et des usages d'applications, accompagner les demandes d'autorisation, présenter des bilans d'usage compréhensibles et soutenir un contrat familial numérique. Les fonctions envisagées sont détaillées plus bas et dans le cahier des charges ; **leur faisabilité, leurs limites et leur disponibilité effective restent à démontrer sur Android**.
+
+## Pourquoi nous faisons appel à la communauté GitHub
+
+ENF apporte la vision éducative, les besoins exprimés par les familles et des ressources pédagogiques. Pour transformer cette vision en logiciel fiable, nous recherchons des **contributrices et contributeurs bénévoles** : développement Android/Kotlin, architecture, sécurité, tests, accessibilité, conception d'interfaces et documentation.
+
+Il ne s'agit pas de demander à une seule personne de construire toute l'application. Des contributions ciblées, relues et testées, peuvent faire avancer le projet. Nous souhaitons construire une première version limitée mais réellement fonctionnelle, puis la proposer gratuitement à des parents volontaires dans un cadre de test encadré. Les contributions sont bénévoles, sans rémunération promise.
+
+**État actuel : prototype expérimental v0.1.** CADRE n'est pas encore une solution de protection opérationnelle pour un enfant. Les fonctions présentées sont des objectifs tant qu'elles ne sont pas développées, intégrées et vérifiées sur des appareils réels.
+
+**Nos engagements :** pas de collecte du contenu privé des messages, photos, vidéos ou enregistrements audio ; pas de keylogging ni d'enregistrement d'écran. Le respect de la vie privée, la transparence des limites techniques et la sécurité des familles font partie des exigences du projet.
 
 **[Liste centrale des onze familles validées et missions associées](docs/FEATURE_REGISTER.md)** · [Livraison de bout en bout](https://github.com/dafonton77-tech/Cadreenf/issues/27)
 
